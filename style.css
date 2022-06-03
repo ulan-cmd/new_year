@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body{
+    background-color:#1A5B35;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 662px;
+    border:1px solid red;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-family: Comforter, sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 115px;
+    color:#CEB076;
+    margin: 0;
+}
+
+.content p{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/*height/width = padding + margin + border + height/width*/
